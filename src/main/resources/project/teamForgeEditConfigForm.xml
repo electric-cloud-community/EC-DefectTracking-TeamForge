@@ -1,0 +1,23 @@
+<editor>    
+	  <formElement>
+        <type>textarea</type>
+        <label>Description:</label>
+        <property>desc</property>
+        <documentation>You can supply a text description for your reference only. Commander does not use this information.</documentation>
+        <value>TeamForge configuration</value>
+    </formElement>    
+    <formElement>
+        <type>entry</type>
+        <label>Host:</label>
+        <property>host</property>
+        <required>1</required>
+        <documentation>Provide the URL to use to connect to a TeamForge server.</documentation>
+    </formElement>
+    <formElement>
+        <type>credential</type>
+        <label>Login As:</label>
+        <property>credential</property>
+        <required>1</required>
+        <documentation>The user name and password to use to log in to the TeamForge server.</documentation>
+    </formElement>
+</editor>
